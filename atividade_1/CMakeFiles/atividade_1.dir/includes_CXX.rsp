@@ -1,0 +1,1 @@
+-I/home/heberton/abcg/abcg -I/home/heberton/abcg/abcg/external/cppitertools -I/home/heberton/abcg/abcg/external/fmt -I/home/heberton/abcg/abcg/external/glm/.. -I/home/heberton/emsdk/upstream/emscripten/cache/sysroot/include/SDL2 -I/home/heberton/abcg/abcg/external/imgui -isystem /home/heberton/abcg/abcg/external 
