@@ -2,7 +2,7 @@
 #### R.A.: 21023713
 #### Professor: Bruno Augusto Dorta Marques
 
-# Computação Gráfica - Atividade A1
+# Computação Gráfica – Atividade A1
 
 ## Enunciado
 Desenvolvimento de uma aplicação gráfica interativa com gráficos 2D. A aplicação pode ser um jogo simples como o jogo que será mostrado em aula, ou uma demonstração gráfica interativa.  
