@@ -20,11 +20,11 @@ Foi desenvolvido em C++ e utilizando a API do OpenGL o `Simon Game`, que é um j
 # Descrição técnica
 Para a elaboração da atividade foi utilizado a linguagem C++ juntamente com as bibliotecas da própria linguagem e as bibliotecas `ABCg` e `ImGui` (https://github.com/ocornut/imgui). Para a renderização gráfica foi utilizada a API `OpenGL` (https://www.opengl.org/). Foram utilizadas as seguintes técnicas:
 
- - `main.cpp`--- Foi criada uma janela usando a API `OpenGL`, fixando altura e comprimento e removendo os *widgets* que mostram *FPS* e botão de tela cheia;
+ - `main.cpp`– Foi criada uma janela usando a API `OpenGL`, fixando altura e comprimento e removendo os *widgets* que mostram *FPS* e botão de tela cheia;
 
- - `openglwindow.hpp`--- A classe da janela utiliza a biblioteca `ABCg` onde são inicializados o `OpenGL`, a janela em si e os *widgets* da janela. O fundo da janela foi colorido de preto;
+ - `openglwindow.hpp`– A classe da janela utiliza a biblioteca `ABCg` onde são inicializados o `OpenGL`, a janela em si e os *widgets* da janela. O fundo da janela foi colorido de preto;
 
- - `openglwindow.cpp`--- Foram utilizadas as *features* da biblioteca `ABCg` para inicializar a janela e os *widgets*. Para os *widgets* foi utilizado o `ImGui` para:
+ - `openglwindow.cpp`– Foram utilizadas as *features* da biblioteca `ABCg` para inicializar a janela e os *widgets*. Para os *widgets* foi utilizado o `ImGui` para:
 
 	 - Configurar as *flags* da janela, redimensionar a janela, exibir os textos fixados, criar as colunas e separadores para os botões coloridos (que também foram criados usando`ImGui`), além das *flags* dos botões e os botões comuns (não coloridos);
 	- As ações dos botões também foram feitas com funções do `ImGui`.
