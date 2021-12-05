@@ -1,5 +1,5 @@
 # MCTA008-Computacao_Grafica
-This repository contain the projects for the subject of Computer Graphics.
+This repository contain the projects for the course of Computer Graphics.
 
 ## Activity A1
 Development of a 2D game, `Simon Game`, made in C++ using OpenGL.
